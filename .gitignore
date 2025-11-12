@@ -1,0 +1,1 @@
+echo "deployment_notes.txt" >> .gitignore

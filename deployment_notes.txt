@@ -1,0 +1,10 @@
+## Infrastructure Deployment (Terraform on AWS)
+
+```bash
+# Terraform deployment reminder
+cd infra/aws
+terraform init
+terraform apply
+
+# To destroy all resources:
+terraform destroy

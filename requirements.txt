@@ -1,0 +1,8 @@
+# -------------------------------
+# Core Python Libraries
+# -------------------------------
+boto3==1.35.6          # AWS SDK for Python (S3, IAM, etc.)
+requests==2.32.3       # For API calls during data ingestion
+python-dotenv==1.0.1   # To load environment variables from .env file
+pyarrow==17.0.0        # For handling data and writing to Parquet format
+pandas==2.2.3          # For optional data transformations

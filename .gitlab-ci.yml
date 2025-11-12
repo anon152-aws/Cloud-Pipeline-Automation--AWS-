@@ -1,0 +1,17 @@
+stages:
+  - test
+  - deploy
+
+test:
+  stage: test
+  script:
+    - pip install -r requirements.txt
+    - pytest
+
+deploy:
+  stage: deploy
+  script:
+    - terraform init
+    - terraform apply -auto-approve
+  only:
+    - main
